@@ -4,7 +4,7 @@ const LoginForm = () => {
   return (
     <div>
       <Header />
-      this is login
+      login{/* <LoginForm />  needs implement*/}
       <Footer />
     </div>
   );

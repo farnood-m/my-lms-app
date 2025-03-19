@@ -6,6 +6,8 @@ const CoursesPage = () => {
       <Header />
       <div className="content">
         <p>this is courses</p>
+        {/* <CourseCatalog />
+        <EnrollmentList /> implement*/}
       </div>
       <Footer />
     </div>
