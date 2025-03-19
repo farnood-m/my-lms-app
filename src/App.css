@@ -53,7 +53,13 @@ main[class="signup"] {
   padding: 20px;
   text-align: center;
   align-items: center;
-
+  margin: 20px auto;
+  max-width: 90%;
+}
+.content {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
   margin: 20px auto;
   max-width: 90%;
 }
@@ -133,6 +139,10 @@ select {
 table {
   margin-top: 20px;
   width: 100%;
+}
+
+table[class="cv"] {
+  border-spacing: 15px; /* Add spacing between table cells */
 }
 
 table[class="cv"] td {
@@ -319,3 +329,4 @@ footer {
 .testimonial-card p {
   margin: 8px 0;
 }
+
