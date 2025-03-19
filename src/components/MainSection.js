@@ -31,8 +31,9 @@ const MainSection = () => {
           {shuffledCourses.map((course) => (
             <td className="cv-item" key={course.id}>
               <div>
+                <h3>Course Name:   {course.name}</h3>
                 <img src={course1} alt={course.name} />
-                <p>{course.name}</p>
+
                 <p className="text-left">Instructor: {course.instructor}</p>
                 <p className="text-left">Duration: {course.duration}</p>
                 <p className="text-left">Description: {course.description}</p>

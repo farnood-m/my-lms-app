@@ -296,6 +296,9 @@ footer {
   background-color: #45a049;
   opacity: 1;
 }
+.text-left {
+  text-align: left;
+}
 
 .testimonials-container {
   display: flex;
