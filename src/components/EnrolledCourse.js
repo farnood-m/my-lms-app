@@ -1,8 +1,6 @@
 const EnrolledCourse = ({ course, onDrop }) => {
   const { id, name, duration } = course;
-  const creditHours = parseInt(duration.charAt(0), 10) || 0;
-
-
+  const creditHours = parseInt(duration.match(/^\d+/)?.[0], 10) || 0;
 
   return (
     <tr className="enrolled-course" id={id}>

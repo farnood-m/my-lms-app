@@ -68,7 +68,7 @@ const courses = [
     name: "Game Development",
     instructor: "Dr. Anna White",
     description: "Create games using Unity and Unreal Engine.",
-    duration: "12 weeks",
+    duration: "15 weeks",
     image: "images/course1.jpg",
   },
   {

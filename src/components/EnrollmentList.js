@@ -3,7 +3,7 @@ import EnrolledCourse from "./EnrolledCourse";
 
 const EnrollmentList = ({ enrolledCourses, onDropCourse }) => {
   const totalCreditHours = enrolledCourses.reduce((total, course) => {
-    const creditHours = parseInt(course.duration.charAt(0), 10) || 0;
+    const creditHours = parseInt(course.duration.match(/^\d+/)?.[0], 10) || 0;
     return total + creditHours;
   }, 0);
 
