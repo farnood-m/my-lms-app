@@ -1,12 +1,14 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-const LoginForm = () => {
+import LoginForm from"./components/LoginForm";
+
+const LoginPage= () => {
   return (
     <div>
       <Header />
-      login{/* <LoginForm />  needs implement*/}
+      <LoginForm />
       <Footer />
     </div>
   );
 };
-export default LoginForm;
+export default LoginPage;
